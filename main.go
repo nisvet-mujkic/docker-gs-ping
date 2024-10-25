@@ -28,7 +28,7 @@ func main() {
 		httpPort = "8080"
 	}
 
-	e.Logger.Fatal(e.Start(":" + httpPort))
+	e.Logger.Fatal(e.Start("localhost:" + httpPort))
 }
 
 // Simple implementation of an integer minimum
